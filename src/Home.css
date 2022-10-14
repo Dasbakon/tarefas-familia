@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+.img-familia {
+    width: 100vw;
+}
+
+.login-container {
+    position: absolute;
+    width: min-content;
+    height: min-content;
+    top: 25vh;
+    left: 40vw;
+    padding: 80px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: grey;
+    background-color: rgba(78, 130, 199, 0.8);
+    color: aliceblue;
+}
+
+.login-container button {
+    margin-top: 30px;
+}
+
+.login-container input:hover {
+    border: 2px solid aliceblue;
+}
